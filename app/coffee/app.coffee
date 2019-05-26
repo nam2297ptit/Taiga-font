@@ -584,7 +584,7 @@ configure = ($routeProvider, $locationProvider, $httpProvider, $provide, $tgEven
 
     defaultHeaders = {
         "Content-Type": "application/json"
-        "Accept-Language": window.taigaConfig.defaultLanguage || "en"
+        "Accept-Language": window.taigaConfig.defaultLanguage || "vi"
         "X-Session-Id": taiga.sessionId
     }
 
@@ -719,7 +719,7 @@ configure = ($routeProvider, $locationProvider, $httpProvider, $provide, $tgEven
         userInfo = JSON.parse(localStorage.userInfo)
 
     # i18n
-    preferedLangCode = userInfo?.lang || window.taigaConfig.defaultLanguage || "en"
+    preferedLangCode = userInfo?.lang || window.taigaConfig.defaultLanguage || "vi"
 
     $translatePartialLoaderProvider.addPart('taiga')
     $translateProvider

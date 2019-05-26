@@ -6,14 +6,13 @@ html(lang="en", ng-attr-dir="{{ isRTL ? 'rtl' : 'ltr' }}")
         meta(name="fragment", content="!")
 
         // Main meta
-        title Taiga
+        title Fwork
         meta(name="description", content="Taiga is a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable.")
         meta(name="keywords", content="agile, scrum, taiga, management, project, developer, designer, user experience")
 
         //-meta(name="viewport", content="width=device-width, user-scalable=no")
         link(rel="stylesheet", href="/#{v}/styles/theme-taiga.css")
         link(rel="icon", type="image/png", href="/#{v}/images/favicon.png")
-
         //- PRERENDER SERVICE: This is to know when the page is completely loaded.
         script(type='text/javascript').
             window.prerenderReady = false;
@@ -22,6 +21,7 @@ html(lang="en", ng-attr-dir="{{ isRTL ? 'rtl' : 'ltr' }}")
         div(tg-navigation-bar, ng-if="!errorHandling.showingError")
         div(ng-if="!errorHandling.showingError")
             div.master(ng-view)
+            
 
         div(ng-if="errorHandling.notfound", ng-include="'error/not-found.html'")
         div(ng-if="errorHandling.error", ng-include="'error/error.html'")

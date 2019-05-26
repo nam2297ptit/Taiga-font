@@ -3,16 +3,17 @@
 <svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 1000 1000" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1F418B;}
-	.st1{fill:#FFFFFF;}
+	.st0{display:none;}
+	.st1{display:inline;fill:#FFFFFF;}
+	.st2{fill:#1F418B;}
 </style>
-<g id="Layer_2">
-	<path class="st0" d="M1000,900c0,55-45,100-100,100H100C45,1000,0,955,0,900V100C0,45,45,0,100,0h800c55,0,100,45,100,100V900z"/>
+<g id="Layer_2" class="st0">
+	<path class="st1" d="M1000,900c0,55-45,100-100,100H100C45,1000,0,955,0,900V100C0,45,45,0,100,0h800c55,0,100,45,100,100V900z"/>
 </g>
 <g id="Layer_1">
-	<g id="Layer_4">
+	<g id="Layer_4" class="st0">
 	</g>
-	<polygon class="st1" points="821.06,109.89 590.03,109.89 569.57,109.89 527.35,109.89 527.35,866.07 462.1,866.07 462.1,109.89 
+	<polygon class="st2" points="821.06,109.89 590.03,109.89 569.57,109.89 527.35,109.89 527.35,866.07 462.1,866.07 462.1,109.89 
 		441.53,109.89 430.92,109.89 178.94,109.89 178.94,147.57 430.92,147.57 430.92,890.11 450.21,890.11 462.1,890.11 527.35,890.11 
 		590.03,890.11 590.03,866.07 590.03,148 821.06,148 	"/>
 </g>

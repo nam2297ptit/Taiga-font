@@ -4,6 +4,9 @@
         display: block;
         margin: 1rem 0;
         text-align: center;
+        &:hover {
+            color: $blue;
+        }
     }
     .register-text {
         @include font-size(small);

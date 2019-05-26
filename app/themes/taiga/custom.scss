@@ -107,16 +107,16 @@ cite {
 
 // Top navigation bar
 .navbar {
-    background: rgba($black, .5);
+    background: rgba($blue, 1);
     &::after {
-        background: url('../images/menu-vert.png') repeat top left;
+        //background: url('../images/menu-vert.png') repeat top left;
     }
 }
 
 //In project left navigation bar
 tg-project-menu {
-    background-color: $primary-dark;
-    background-image: url('../images/menu.png');
+    background-color: rgba($blue, 1);
+    //background-image: url('../images/menu.png');
 }
 
 .main-nav {

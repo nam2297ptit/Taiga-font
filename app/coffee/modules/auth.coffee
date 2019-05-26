@@ -94,7 +94,7 @@ class AuthService extends taiga.Service
             @themeService.use(@._currentTheme)
 
     _setLocales: ->
-        lang = @rootscope.user?.lang || @config.get("defaultLanguage") || "en"
+        lang = @rootscope.user?.lang || @config.get("defaultLanguage") || "vi"
         @translate.preferredLanguage(lang)  # Needed for calls to the api in the correct language
         @translate.use(lang)                # Needed for change the interface in runtime
 

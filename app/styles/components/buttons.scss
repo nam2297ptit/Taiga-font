@@ -85,8 +85,8 @@ a.button-green {
     background: $primary;
     &:hover,
     &.active {
-        background: $primary-light;
-        color: $white;
+        background: $primary;
+        color: $blackish;
     }
 }
 .button-gray,
@@ -95,8 +95,8 @@ a.button-gray {
     background: $gray;
     &:hover,
     &.active {
-        background: $primary-light;
-        color: $white;
+        background: $primary;
+        color: $blackish;
     }
 }
 .button-blackish {

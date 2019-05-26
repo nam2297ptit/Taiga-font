@@ -117,7 +117,7 @@ LoadingDirective = ($loading) ->
                  currentLoading.finish()
 
     return {
-        priority: 99999,
+        priority: 9999,
         link:link
     }
 
